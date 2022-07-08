@@ -20,6 +20,12 @@ public class Tutorial01 extends Object {
 
       // add the property
       johnSmith.addProperty(VCARD.FN, fullName);
+      String dir = System.getProperty("user.dir");
+
+      // directory from where the program was launched
+      // e.g /home/mkyong/projects/core-java/java-io
+      System.out.println(dir);
       }
+
 //      model.write()
 }
