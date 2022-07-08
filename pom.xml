@@ -12,7 +12,7 @@
 		<apache.jena.lib>4.2.0</apache.jena.lib>
 	</properties>
 	<dependencies>
-		<dependency>
+<!-- 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
 			<version>1.7.26</version>
@@ -47,7 +47,7 @@
 			<groupId>org.eclipse.rdf4j</groupId>
 			<artifactId>rdf4j-sail-federation</artifactId>
 			<version>4.0.0-M1</version>
-		</dependency>
+		</dependency>-->
 		<dependency>
 			<groupId>org.apache.jena</groupId>
 			<artifactId>apache-jena-libs</artifactId>
