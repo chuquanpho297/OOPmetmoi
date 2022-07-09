@@ -11,4 +11,6 @@ public class PrefixConstant {
 	public static final String schema = "http://schema.org/";
 	public static final String dbo = "http://dbpedia.org/ontology/";
 	public static final String foaf = "http://xmlns.com/foaf/0.1/";
+	public static final String rs = "http://www.w3.org/2001/sw/DataAccess/tests/result-set#";
+	public static final String xsd = "http://www.w3.org/2001/XMLSchema#";
 }

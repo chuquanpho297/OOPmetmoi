@@ -40,6 +40,7 @@ public class AppJena {
 				+ "LIMIT 100";
 		String fileName = "test";
 		RDFHandler.QueryAndSave(querySelect,QueryUrlConstant.dbpediaQueryUrl,fileName);
+//		RDFHandler.LoadFile("test");
 		
 	}
 }
