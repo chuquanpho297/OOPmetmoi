@@ -13,5 +13,8 @@ public class Utility {
 		queryStr.setNsPrefix("wd", PrefixConstant.wd);
 		queryStr.setNsPrefix("wdt", PrefixConstant.wdt);
 		queryStr.setNsPrefix("yago", PrefixConstant.yago);
+		queryStr.setNsPrefix("schema", PrefixConstant.schema);
+		queryStr.setNsPrefix("dbo", PrefixConstant.dbo);
+		queryStr.setNsPrefix("foaf", PrefixConstant.foaf);
 	}
 }

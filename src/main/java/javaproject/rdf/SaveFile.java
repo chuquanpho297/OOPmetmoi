@@ -10,6 +10,8 @@ import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.Resource;
+import org.apache.jena.riot.RDFDataMgr;
+import org.apache.jena.riot.RDFFormat;
 
 import javaproject.constant.DirContanst;
 
@@ -37,13 +39,14 @@ class SaveFile {
 					model.add(root, property, child);
 				}
 				model.setNsPrefix("ns", ns);
-				model.write(out, "Turtle");
-				System.out.println("Done!");
+//				model.write(out, "TURTLE_BLOCKS");
+				RDFDataMgr.write(System.out, model, RDFFormat.TURTLE_BLOCKS) ;
 				count++;
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
+			System.out.println("The number of saved file: " + count);
 		}
-		System.out.println("The number of saved file: "+count);
+		System.out.println();
 	}
 }

@@ -8,4 +8,7 @@ public class PrefixConstant {
 	public static final String dbp = "http://dbpedia.org/property/";
 	public static final String rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#";
 	public static final String yago = "http://dbpedia.org/class/yago/";
+	public static final String schema = "http://schema.org/";
+	public static final String dbo = "http://dbpedia.org/ontology/";
+	public static final String foaf = "http://xmlns.com/foaf/0.1/";
 }
